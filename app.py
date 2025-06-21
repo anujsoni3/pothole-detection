@@ -41,7 +41,7 @@ model = project.version(2).model
 
 # --------------------- MongoDB Connections --------------------------------
 
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('your-mongo-url')
 db = client['pothole_app']
 users_collection = db['users']
 resolved_complaints_collection = db['resolved_complaints']
